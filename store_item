@@ -1,1 +1,29 @@
+class Store 
 
+  def initialize(input_plant, input_price, input_size)
+    @plant = input_plant
+    @price = input_price
+    @size = input_size
+  end 
+
+end 
+
+item_1 = Store.new ("green pothos", 15.99, "medium")
+item_2 = Store.new ("marbled pothos", 18.99, "small")
+item_3 = Store.new ("succulent", 4.99, "extra small")
+
+def print
+  puts "Plant Chicago sells #{item_1} for #{price} that are usually a #{size} size."
+end 
+
+def print
+  puts "Plant Chicago sells #{item_2} for #{price} that are usually a #{size} size."
+end 
+
+def print
+  puts "Plant Chicago sells #{item_3} for #{price} that are usually a #{size} size."
+end 
+
+p item_1
+p item_2
+p item_3
